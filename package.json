@@ -1,0 +1,26 @@
+{
+  "name": "cryp2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhasselbring/cryp2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhasselbring/cryp2/issues"
+  },
+  "homepage": "https://github.com/jhasselbring/cryp2#readme",
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "hexvault": "^4.1.0",
+    "minimist": "^1.2.6",
+    "recursive-readdir": "^2.2.2"
+  },
+  "bin": "./cli.js"
+}
